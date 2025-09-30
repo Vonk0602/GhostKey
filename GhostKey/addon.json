@@ -1,0 +1,13 @@
+{
+  "title": "ghostkey",
+  "type": "server",
+  "tags": ["admin"],
+  "ignore": ["*.git"],
+  "author": "WiseGenie",
+  "description": "Ghostkey",
+  "version": "1.0.0",
+  "lua": {
+    "autorun/server": ["sv_ghostkey.lua"],
+    "autorun/client": ["cl_ghostkey.lua"]
+  }
+}
